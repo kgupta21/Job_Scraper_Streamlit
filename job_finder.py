@@ -4,8 +4,8 @@ from jobspy import scrape_jobs
 import pandas as pd
 
 # Streamlit App
-st.title("Job Scraper App")
-st.write("This app scrapes job listings from various platforms based on your input criteria.")
+st.title("Job Finder")
+st.write("This app finds job listings from various platforms based on your input criteria.")
 
 # User Inputs
 site_name = st.multiselect("Select Job Sites", ["indeed", "linkedin", "zip_recruiter", "glassdoor", "google"], default=["indeed", "linkedin"])
