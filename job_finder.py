@@ -17,7 +17,7 @@ hours_old = st.number_input("Max Age of Job Postings (in hours)", min_value=1, v
 country_indeed = st.text_input("Country for Indeed Search", "Canada")
 
 # Button to Trigger Scraping
-if st.button("Scrape Jobs"):
+if st.button("Find Jobs"):
     try:
         # Scraping Jobs
         jobs = scrape_jobs(
